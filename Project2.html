@@ -1,0 +1,190 @@
+<html>
+<head>
+ <title>Job Application</title>    
+ <style type="text/css">
+  body{
+   background-image:url('images/back4.jpg');
+   background-repeat:no-repeat;      
+  } 
+  h1{
+   text-align:center;
+   font-family:"Old English Text MT"      
+  } 
+  fieldset{
+   border:2px solid black;     border-radius:15px;
+   background:rgba(0,0,0,0.5);
+   margin-bottom:40px;      
+  }  
+  legend{
+   font-family:"Old English Text MT";
+   font-size:20px;
+   background:linear-gradient(90deg,black,coral,black);
+   color:white;
+   padding:5px 19px;
+   border-radius:10px;
+   border-top-right-radius:50px;
+   border-bottom-left-radius: 50px;      
+  } 
+  table{
+   font-family:verdana;
+   font-size:15px;  
+   color:white;      
+  } 
+  input[type="text"],textarea{
+   font-size:15px;        
+  }     
+  input[type="text"]:focus,textarea:focus{
+    background-color:yellow;
+  }  
+  tr{
+   height:35px;     
+  }     
+ </style>    
+</head>
+<body>
+<h1>Job Application Form</h1> 
+
+<form>
+<fieldset>
+ <legend>Personal Details</legend>    
+ <table>
+  <tbody>
+   <tr>
+    <td>
+     <label for="fn">First Name</label>        
+    </td>
+    <td>
+     <input type="text" id="fn" autofocus placeholder="enter first name">       
+    </td>  
+
+   <td>
+     <label for="mn">Middle Name</label>        
+    </td>
+    <td>
+     <input type="text" id="mn">       
+    </td> 
+       
+   <td>
+     <label for="ln">Last Name</label>        
+    </td>
+    <td>
+     <input type="text" id="ln">       
+    </td>          
+   </tr>  
+      
+   <tr>
+   <td>
+     <label for="fan">Father's  Name</label>        
+    </td>
+    <td>
+     <input type="text" id="fan">       
+    </td>  
+   <td>
+     <label for="mon">Mother's  Name</label>        
+    </td>
+    <td>
+     <input type="text" id="mon">       
+    </td>          
+  </tr>   
+      
+<tr>
+  <td>Current Address</td>    
+  <td>
+   <textarea name="caddr"></textarea>      
+  </td>    
+  <td>Permanent Address</td>   
+  <td>
+   <textarea name="paddr"></textarea>      
+  </td>        
+</tr> 
+    
+ <tr>
+  <td colspan="6">Phone Numbers</td>     
+  </tr> 
+  <tr>
+  <td>Landline</td>    
+  <td>
+   <input type=text pattern="[0-9-]{10,11}$">   
+  </td>
+ <td>Mobile</td>    
+  <td>
+   <input type=text pattern="[0-9]{10}$">   
+  </td>      
+  </tr>      
+  </tbody>     
+ </table>    
+</fieldset>    
+    
+<fieldset>
+ <legend>Educational Details</legend>    
+ <table>
+  <tbody>
+   <tr>
+    <td>
+     <label for="fn">First Name</label>        
+    </td>
+    <td>
+     <input type="text" id="fn" autofocus placeholder="enter first name">       
+    </td>  
+
+   <td>
+     <label for="mn">Middle Name</label>        
+    </td>
+    <td>
+     <input type="text" id="mn">       
+    </td> 
+       
+   <td>
+     <label for="ln">Last Name</label>        
+    </td>
+    <td>
+     <input type="text" id="ln">       
+    </td>          
+   </tr>  
+      
+   <tr>
+   <td>
+     <label for="fan">Father's  Name</label>        
+    </td>
+    <td>
+     <input type="text" id="fan">       
+    </td>  
+   <td>
+     <label for="mon">Mother's  Name</label>        
+    </td>
+    <td>
+     <input type="text" id="mon">       
+    </td>          
+  </tr>   
+      
+<tr>
+  <td>Current Address</td>    
+  <td>
+   <textarea name="caddr"></textarea>      
+  </td>    
+  <td>Permanent Address</td>   
+  <td>
+   <textarea name="paddr"></textarea>      
+  </td>        
+</tr> 
+    
+ <tr>
+  <td colspan="6">Phone Numbers</td>     
+  </tr> 
+  <tr>
+  <td>Landline</td>    
+  <td>
+   <input type=text pattern="[0-9-]{10,11}$">   
+  </td>
+ <td>Mobile</td>    
+  <td>
+   <input type=text pattern="[0-9]{10}$">   
+  </td>      
+  </tr>      
+  </tbody>     
+ </table>    
+</fieldset>    
+    
+</form>    
+</body>    
+</html>
